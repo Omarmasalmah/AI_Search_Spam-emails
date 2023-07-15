@@ -78,16 +78,6 @@ def train_mlp_model(features, labels):
     mlp.fit(features, labels)
     return mlp
 
-#def train_mlp_model(features, labels):
-    """
-    Given a list of feature lists and a list of labels, return a
-    fitted MLP model trained on the data using sklearn implementation.
-    """
-#    mlp = MLPClassifier(hidden_layer_sizes=(10, 5), activation='logistic', max_iter=2000, tol=1e-4, learning_rate_init=0.001)
-#    mlp.fit(features, labels)
-#    return mlp
-
-
 
 
 def evaluate(labels, predictions):
